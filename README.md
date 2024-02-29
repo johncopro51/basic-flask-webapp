@@ -12,7 +12,7 @@ Search for a specific word in a comment, post, or username.
 Change bio, or profile picture of an account. 
 Threaded comments with parent-child tree.
 # Deployment
-The following dockerfile has already been made. All you need to do is build an image and run it. The following web-app should run on localhost.
+The following dockerfile has already been made. All you need to do is build an image and run it. The following web-app should run on localhost. Be sure to have the host port set to '5000'. Once you run it, it should start on  (http://localhost:5000) it it starts on (http://0.0.0.0:5000) change (0.0.0.0) to localhost.
 # To-DO's
 The obvious– a reporting system, post/comment deletion. Post editing, email verification which could easily be done. 
 ## Lesson's learned
