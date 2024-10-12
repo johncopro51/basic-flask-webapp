@@ -7,7 +7,7 @@ from flask_socketio import SocketIO
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = '4YrzfpQ4kGXjuP6w'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres.miafgmulufhdgbmshefa:$upaproject#2ok@aws-0-us-west-1.pooler.supabase.com:5432/postgres'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:root@host.docker.internal:5433/postgres'
 db = SQLAlchemy(app)
 bcrypt = Bcrypt(app)
 socketio = SocketIO(app)
